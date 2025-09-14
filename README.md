@@ -28,7 +28,7 @@ Con este sistema, se facilita la labor del área de Recursos Humanos, reduciendo
 
 A continuación se muestra el diagrama de la base de datos:  
 
-[BD_POSTULAPE.pdf](https://github.com/user-attachments/files/22315034/BD_POSTULAPE.pdf)
+[BD_POSTULAPE.pdf](https://github.com/user-attachments/files/22323104/BD_POSTULAPE.pdf)
 
 ---
 
