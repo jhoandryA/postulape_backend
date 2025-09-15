@@ -32,20 +32,55 @@ A continuación se muestra el diagrama de la base de datos:
 
 ---
 
+
+
 ## 🌐 Endpoints Disponibles
 
-| Método | Endpoint                     | Descripción                                   |
-|--------|------------------------------|-----------------------------------------------|
-| GET    | `/api/postulantes`           | Listar todos los postulantes                  |
-| GET    | `/api/postulantes/:id`       | Obtener datos de un postulante por ID         |
-| POST   | `/api/postulantes`           | Registrar un nuevo postulante                 |
-| PUT    | `/api/postulantes/:id`       | Actualizar información de un postulante       |
-| DELETE | `/api/postulantes/:id`       | Eliminar un postulante                        |
-| GET    | `/api/empleados`             | Listar empleados contratados                  |
-| POST   | `/api/empleados`             | Registrar un nuevo empleado                   |
-| GET    | `/api/contratos`             | Listar contratos existentes                   |
-| POST   | `/api/contratos`             | Crear un nuevo contrato                       |
-| PUT    | `/api/contratos/:id`         | Actualizar información de un contrato         |
+## Base URL http://localhost:8080
+
+### 📂 postulante
+
+| Método | Endpoint               | Descripción                                   |
+|--------|------------------------|-----------------------------------------------|
+| GET    | /postulantes           | Listar todos los postulantes                  |
+| POST   | /postulantes           | Registrar un nuevo postulante                 |
+| PUT    | /postulantes/{id}      | Actualizar información de un postulante       |
+| DELETE | /postulantes/{id}      | Eliminar logicamente un postulante            |
+
+---
+
+### 📂 usuario
+
+| Método | Endpoint               | Descripción                                   |
+|--------|------------------------|-----------------------------------------------|
+| GET    | /usuarios              | Listar todos los usuarios                     |
+| POST   | /usuarios              | Registrar un nuevo usuario                    |
+| PUT    | /usuarios/{id}         | Actualizar información de un usuario          |
+| DELETE | /usuarios/{id}         | Eliminar logicamente un usuario               |
+
+---
+
+### 📂 area
+
+| Método | Endpoint               | Descripción                                   |
+|--------|------------------------|-----------------------------------------------|
+| GET    | /areas                 | Listar todas las áreas                        |
+| POST   | /areas                 | Registrar una nueva área                      |
+| PUT    | /areas/{id}            | Actualizar información de un área             |
+| DELETE | /areas/{id}            | Eliminar logicamente un área                  |
+
+---
+
+### 📂 convocatoria
+
+| Método | Endpoint               | Descripción                                   |
+|--------|------------------------|-----------------------------------------------|
+| GET    | /convocatorias         | Listar todas las convocatorias                |
+| POST   | /convocatorias         | Registrar una nueva convocatoria              |
+| PUT    | /convocatorias/{id}    | Actualizar información de una convocatoria    |
+| DELETE | /convocatorias/{id}    | Eliminar logicamente una convocatoria         |
+
+---
 
 
 ---
