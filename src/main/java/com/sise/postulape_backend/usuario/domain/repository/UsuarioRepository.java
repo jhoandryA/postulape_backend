@@ -1,4 +1,4 @@
-package com.sise.postulape_backend.usuario.domain.repositiry;
+package com.sise.postulape_backend.usuario.domain.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
