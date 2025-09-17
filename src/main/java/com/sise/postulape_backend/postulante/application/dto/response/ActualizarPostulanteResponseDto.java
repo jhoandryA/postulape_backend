@@ -1,9 +1,11 @@
-package com.sise.postulape_backend.postulante.application.request;
+package com.sise.postulape_backend.postulante.application.dto.response;
 
 import lombok.Data;
+import java.sql.Timestamp;
 
 @Data
-public class ActualizarPostulanteRequestDto {
+public class ActualizarPostulanteResponseDto {
+    private Integer idPostulante;
     private Integer idUsuario;
     private Integer idTipoDocumento;
     private String numeroDocumento;
@@ -15,5 +17,6 @@ public class ActualizarPostulanteRequestDto {
     private String idDistrito;
     private String telefono;
     private String celular;
+    private String idEliminado;
+    private Timestamp fechaCreacion;
 }
-

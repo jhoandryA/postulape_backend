@@ -1,4 +1,4 @@
-package com.sise.postulape_backend.postulante.application.response;
+package com.sise.postulape_backend.postulante.application.dto.response;
 
 import lombok.Data;
 
