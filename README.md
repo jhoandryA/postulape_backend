@@ -17,7 +17,6 @@ El sistema de reclutamiento busca automatizar y optimizar el proceso de selecci�
 - Registro y gestión de postulantes.  
 - Administración de etapas del proceso (entrevista, pruebas técnicas, pruebas psicológicas, etc.).  
 - Gestión de empleados contratados.  
-- Asignación de contratos y control de historial laboral.  
 - Consulta y reportes del proceso de reclutamiento.  
 
 Con este sistema, se facilita la labor del área de Recursos Humanos, reduciendo tiempos de gestión y mejorando la organización del proceso.
