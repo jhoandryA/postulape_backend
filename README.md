@@ -12,6 +12,7 @@ Este proyecto es un Sistema de Reclutamiento y Gestión Administrativa de Emplea
 
 ## 🎯 Alcance del Proyecto
 
+
 El sistema de reclutamiento busca automatizar y optimizar el proceso de selección de personal en la empresa, permitiendo:  
 
 - Registro y gestión de postulantes.  
@@ -81,7 +82,25 @@ A continuación se muestra el diagrama de la base de datos:
 
 ---
 
+## Reto:
 
+###👥 Integrantes
+
+- Apaza Sandagorda Jhoandry
+- Castro Rojas Jorge Luis
+
+## 📖 Documentación con Swagger
+
+El proyecto cuenta con integración de Swagger, lo que permite disponer de una documentación interactiva y siempre actualizada de la API del **Sistema de Reclutamiento**.  
+
+Gracias a esta herramienta, se pueden visualizar de forma clara todos los **endpoints expuestos anteriormente** en el backend (convocatorias, postulantes, areas y usuarios), junto con la información necesaria para consumirlos, como parámetros de entrada, cuerpos de las peticiones y ejemplos de respuestas.  
+
+Además, Swagger no solo documenta, sino que también facilita **probar los endpoints (CRUD) directamente desde el navegador**.
+### 🚀 Acceso a la documentación
+Una vez ejecutada la aplicación, la documentación estará disponible en:
+- `http://localhost:8080/swagger-ui/index.html`
+
+### Video demostrativo: 
 ---
 
 Sistema de reclutamiento-Lenguaje de programacion avanzado SISE
