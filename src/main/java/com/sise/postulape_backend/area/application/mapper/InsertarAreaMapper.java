@@ -28,8 +28,8 @@ public class InsertarAreaMapper implements IEntityDtoMapper<Area, InsertarAreaRe
             responseDto.setIdArea(entity.getIdArea());
             responseDto.setNombre(entity.getNombre());
             responseDto.setDescripcion(entity.getDescripcion());
-            responseDto.setIdEliminado(entity.getIdEliminado()); // Solo lectura
-            responseDto.setFechaCreacion(entity.getFechaCreacion()); // Solo lectura
+            responseDto.setIdEliminado(entity.getIdEliminado()); 
+            responseDto.setFechaCreacion(entity.getFechaCreacion()); 
         }
         return responseDto;
     }

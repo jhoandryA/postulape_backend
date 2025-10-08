@@ -59,8 +59,8 @@ public class AreaApplicationService {
 
     public EliminarAreaResponseDto eliminarArea(Integer id) {
         Area area = areaDomainService.obtenerAreaPorId(id);
-        area.setIdEliminado("1"); // Marcar como eliminado
+        area.setIdEliminado("1"); 
         areaDomainService.actualizarArea(area);
-        return eliminarAreaMapper.entityToResponse(area); // Usar el mapper para la respuesta
+        return eliminarAreaMapper.entityToResponse(area); 
     }
 }
