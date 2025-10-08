@@ -1,5 +1,6 @@
 package com.sise.postulape_backend.convocatoria.domain.entities;
 
+
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import jakarta.persistence.Column;
