@@ -20,17 +20,23 @@ import com.sise.postulape_backend.area.application.dto.response.InsertarAreaResp
 import com.sise.postulape_backend.area.application.dto.response.ListarAreaResponseDto;
 import com.sise.postulape_backend.area.application.service.AreaApplicationService;
 
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.tags.Tag;
+
+
+
 import java.util.List;
 
 @RestController
 @RequestMapping("/areas")
+@Tag(name = "Área", description = "Operaciones CRUD para gestionar áreas")
 public class AreaController {
-
     
     @Autowired
     private AreaApplicationService areaApplicationService;
 
     @PostMapping("")
+    @Operation(summary = "Insertar nueva área", description = "Crea una nueva área en el sistema")
     public ResponseEntity<InsertarAreaResponseDto> insertarArea(
             @RequestBody InsertarAreaRequestDto requestDto) {
         try {
@@ -42,6 +48,7 @@ public class AreaController {
     }
 
     @GetMapping("")
+    @Operation(summary = "Listar áreas", description = "Obtiene todas las áreas registradas")
     public ResponseEntity<List<ListarAreaResponseDto>> listarAreas() {
         try {
             List<ListarAreaResponseDto> areas = areaApplicationService.listarAreas();
@@ -52,6 +59,7 @@ public class AreaController {
     }
 
     @PutMapping("/{id}")
+    @Operation(summary = "Actualizar área", description = "Actualiza los datos de un área existente")
     public ResponseEntity<ActualizarAreaResponseDto> actualizarArea(
             @PathVariable Integer id,
             @RequestBody ActualizarAreaRequestDto requestDto) {
@@ -64,6 +72,7 @@ public class AreaController {
     }
 
     @DeleteMapping("/{id}")
+    @Operation(summary = "Eliminar área", description = "Elimina un área del sistema por su ID (logicamente)")
     public ResponseEntity<EliminarAreaResponseDto> eliminarArea(
             @PathVariable Integer id) {
         try {
