@@ -34,4 +34,3 @@ public class ListarPostulanteMapper implements IEntityDtoMapper<Postulante, Void
         return responseDto;
     }
 }
-

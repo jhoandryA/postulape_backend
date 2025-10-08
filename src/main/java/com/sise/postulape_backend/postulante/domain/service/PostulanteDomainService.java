@@ -1,5 +1,7 @@
 package com.sise.postulape_backend.postulante.domain.service;
 
+
+import com.sise.postulape_backend.common.domain.exception.BusinessException;
 import com.sise.postulape_backend.postulante.domain.entities.Postulante;
 import com.sise.postulape_backend.postulante.domain.repository.PostulanteRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,7 +28,7 @@ public class PostulanteDomainService {
 
     public Postulante obtenerPostulantePorId(Integer id) {
         return postulanteRepository.findById(id)
-                .orElseThrow(() -> new RuntimeException("Postulante no encontrado con id: " + id));
+                .orElseThrow(() -> new BusinessException("Postulante no encontrado con id: " + id));
     }
 
     public Postulante actualizarPostulante(Postulante postulante) {
@@ -39,4 +41,3 @@ public class PostulanteDomainService {
         actualizarPostulante(postulante);
     }
 }
-
