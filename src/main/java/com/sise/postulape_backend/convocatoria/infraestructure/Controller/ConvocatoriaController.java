@@ -26,7 +26,7 @@ public class ConvocatoriaController {
     @Autowired
     private ConvocatoriaApplicationService convocatoriaApplicationService;
 
-    // ➕ INSERTAR
+    
     @PostMapping("")
     @Operation(summary = "Insertar nueva convocatoria", description = "Crea una nueva convocatoria en el sistema")
     public ResponseEntity<BaseResponseDto> insertarConvocatoria(

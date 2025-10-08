@@ -1,4 +1,4 @@
-package com.sise.postulape_backend.postulante.infraestructure.Controller;
+package com.sise.postulape_backend.postulante.infraestructure.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

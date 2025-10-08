@@ -25,7 +25,7 @@ public class EtapaController {
     @Autowired
     private EtapaApplicationService etapaApplicationService;
 
-    // ➕ INSERTAR
+    
     @PostMapping("")
     @Operation(summary = "Insertar nueva etapa", description = "Crea una nueva etapa en el sistema")
     public ResponseEntity<BaseResponseDto> insertarEtapa(
@@ -38,7 +38,7 @@ public class EtapaController {
         }
     }
 
-    // 📋 LISTAR
+    
     @GetMapping("")
     @Operation(summary = "Listar etapas", description = "Obtiene todas las etapas registradas")
     public ResponseEntity<BaseResponseDto> listarEtapas() {
@@ -50,7 +50,7 @@ public class EtapaController {
         }
     }
 
-    // ✏️ ACTUALIZAR
+
     @PutMapping("/{id}")
     @Operation(summary = "Actualizar etapa", description = "Actualiza los datos de una etapa existente")
     public ResponseEntity<BaseResponseDto> actualizarEtapa(
@@ -64,7 +64,7 @@ public class EtapaController {
         }
     }
 
-    // 🗑️ ELIMINAR (lógico)
+    
     @DeleteMapping("/{id}")
     @Operation(summary = "Eliminar etapa", description = "Elimina una etapa del sistema por su ID (eliminación lógica)")
     public ResponseEntity<BaseResponseDto> eliminarEtapa(@PathVariable Integer id) {
