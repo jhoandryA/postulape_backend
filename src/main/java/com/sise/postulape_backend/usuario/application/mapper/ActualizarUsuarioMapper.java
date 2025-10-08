@@ -58,4 +58,3 @@ public class ActualizarUsuarioMapper implements IEntityDtoMapper<Usuario, Actual
         }
     }
 }
-

@@ -6,5 +6,5 @@ import com.sise.postulape_backend.usuario.domain.entities.Usuario;
 
 @Repository
 public interface UsuarioRepository extends JpaRepository<Usuario, Integer> {
+    boolean existsByUsuario(String usuario);
 }
-

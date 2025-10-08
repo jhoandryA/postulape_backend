@@ -1,5 +1,6 @@
 package com.sise.postulape_backend.usuario.domain.service;
 
+import com.sise.postulape_backend.common.domain.exception.BusinessException;
 import com.sise.postulape_backend.usuario.domain.entities.Usuario;
 import com.sise.postulape_backend.usuario.domain.repository.UsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,7 +27,7 @@ public class UsuarioDomainService {
 
     public Usuario obtenerUsuarioPorId(Integer id) {
         return usuarioRepository.findById(id)
-                .orElseThrow(() -> new RuntimeException("Usuario no encontrado con id: " + id));
+                .orElseThrow(() -> new BusinessException("Postulante no encontrado con id: " + id));
     }
 
     public Usuario actualizarUsuario(Usuario usuario) {
@@ -39,4 +40,3 @@ public class UsuarioDomainService {
         actualizarUsuario(usuario);
     }
 }
-
