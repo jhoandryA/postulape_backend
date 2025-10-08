@@ -82,6 +82,28 @@ A continuación se muestra el diagrama de la base de datos:
 
 ---
 
+### 📂 perfil
+
+| Método | Endpoint               | Descripción                                   |
+|--------|------------------------|-----------------------------------------------|
+| GET    | /perfiles              | Listar todos los perfiles                     |
+| POST   | /perfiles              | Registrar un nuevo perfil                     |
+| PUT    | /perfiles/{id}         | Actualizar información de un perfil           |
+| DELETE | /perfiles/{id}         | Eliminar logicamente un perfil                |
+
+---
+
+### 📂 etapa
+
+| Método | Endpoint               | Descripción                                   |
+|--------|------------------------|-----------------------------------------------|
+| GET    | /etapa                 | Listar todas las etapas                       |
+| POST   | /etapa                 | Registrar una nueva etapa                     |
+| PUT    | /etapa/{id}            | Actualizar información de una etapa           |
+| DELETE | /etapa/{id}            | Eliminar logicamente una etapa                |
+ 
+---
+
 ## Reto:
 
 ###👥 Integrantes
