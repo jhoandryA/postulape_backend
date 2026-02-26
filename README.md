@@ -107,7 +107,6 @@ A continuación se muestra el diagrama de la base de datos:
 ###👥 Integrantes
 
 - Apaza Sandagorda Jhoandry
-- Castro Rojas Jorge Luis
 
 ## 📖 Documentación con Swagger
 
