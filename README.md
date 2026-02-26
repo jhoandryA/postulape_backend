@@ -6,8 +6,6 @@ Este proyecto es un Sistema de Reclutamiento y Gestión Administrativa de Emplea
 ## 👥 Integrantes
 
 - Apaza Sandagorda Jhoandry
-- Castro Rojas Jorge Luis
-  
 ---
 
 ## 🎯 Alcance del Proyecto
