@@ -3,11 +3,6 @@ Este proyecto es un Sistema de Reclutamiento y Gestión Administrativa de Emplea
 
 ---
 
-## 👥 Integrantes
-
-- Apaza Sandagorda Jhoandry
----
-
 ## 🎯 Alcance del Proyecto
 
 
